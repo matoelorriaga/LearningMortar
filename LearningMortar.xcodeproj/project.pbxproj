@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90B4FDA01DD3E9B600A76781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4FD9F1DD3E9B600A76781 /* AppDelegate.swift */; };
+		90B4FDA21DD3E9B600A76781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4FDA11DD3E9B600A76781 /* ViewController.swift */; };
+		90B4FDA71DD3E9B600A76781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B4FDA61DD3E9B600A76781 /* Assets.xcassets */; };
+		90B4FDB21DD3E9ED00A76781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B4FDB11DD3E9ED00A76781 /* Default-568h@2x.png */; };
+		90B4FDB41DD3EB7300A76781 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4FDB31DD3EB7300A76781 /* TableViewCell.swift */; };
+		90B4FDB61DD3EB7B00A76781 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4FDB51DD3EB7B00A76781 /* TableViewController.swift */; };
+		FCCE099945FFC7ED8384F7D4 /* Pods_LearningMortar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3298F8D33C4B5FA932A0FC05 /* Pods_LearningMortar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3298F8D33C4B5FA932A0FC05 /* Pods_LearningMortar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningMortar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D73AB0EE6E5C3590A7AAAE7 /* Pods-LearningMortar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningMortar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningMortar/Pods-LearningMortar.release.xcconfig"; sourceTree = "<group>"; };
+		90B4FD9C1DD3E9B600A76781 /* LearningMortar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningMortar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B4FD9F1DD3E9B600A76781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90B4FDA11DD3E9B600A76781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90B4FDA61DD3E9B600A76781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90B4FDAB1DD3E9B600A76781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B4FDB11DD3E9ED00A76781 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		90B4FDB31DD3EB7300A76781 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		90B4FDB51DD3EB7B00A76781 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E4599FA5A1F6482254994966 /* Pods-LearningMortar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningMortar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningMortar/Pods-LearningMortar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B4FD991DD3E9B500A76781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCE099945FFC7ED8384F7D4 /* Pods_LearningMortar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7517192AA95B31EDB0E72DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3298F8D33C4B5FA932A0FC05 /* Pods_LearningMortar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90B4FD931DD3E9B500A76781 = {
+			isa = PBXGroup;
+			children = (
+				90B4FD9E1DD3E9B600A76781 /* LearningMortar */,
+				90B4FD9D1DD3E9B600A76781 /* Products */,
+				B36B266F54A64ECA04F435ED /* Pods */,
+				7517192AA95B31EDB0E72DAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90B4FD9D1DD3E9B600A76781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B4FD9C1DD3E9B600A76781 /* LearningMortar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B4FD9E1DD3E9B600A76781 /* LearningMortar */ = {
+			isa = PBXGroup;
+			children = (
+				90B4FD9F1DD3E9B600A76781 /* AppDelegate.swift */,
+				90B4FDA11DD3E9B600A76781 /* ViewController.swift */,
+				90B4FDB51DD3EB7B00A76781 /* TableViewController.swift */,
+				90B4FDB31DD3EB7300A76781 /* TableViewCell.swift */,
+				90B4FDA61DD3E9B600A76781 /* Assets.xcassets */,
+				90B4FDB11DD3E9ED00A76781 /* Default-568h@2x.png */,
+				90B4FDAB1DD3E9B600A76781 /* Info.plist */,
+			);
+			path = LearningMortar;
+			sourceTree = "<group>";
+		};
+		B36B266F54A64ECA04F435ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4599FA5A1F6482254994966 /* Pods-LearningMortar.debug.xcconfig */,
+				8D73AB0EE6E5C3590A7AAAE7 /* Pods-LearningMortar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B4FD9B1DD3E9B500A76781 /* LearningMortar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B4FDAE1DD3E9B600A76781 /* Build configuration list for PBXNativeTarget "LearningMortar" */;
+			buildPhases = (
+				6A5950FC3D9EC053588118DB /* [CP] Check Pods Manifest.lock */,
+				90B4FD981DD3E9B500A76781 /* Sources */,
+				90B4FD991DD3E9B500A76781 /* Frameworks */,
+				90B4FD9A1DD3E9B500A76781 /* Resources */,
+				82DBBAF9281028746CC3E626 /* [CP] Embed Pods Frameworks */,
+				2DA2008C74CB29A3A84DDCB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningMortar;
+			productName = LearningMortar;
+			productReference = 90B4FD9C1DD3E9B600A76781 /* LearningMortar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B4FD941DD3E9B500A76781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = melorriaga;
+				TargetAttributes = {
+					90B4FD9B1DD3E9B500A76781 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K2RR2SL97M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90B4FD971DD3E9B500A76781 /* Build configuration list for PBXProject "LearningMortar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90B4FD931DD3E9B500A76781;
+			productRefGroup = 90B4FD9D1DD3E9B600A76781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B4FD9B1DD3E9B500A76781 /* LearningMortar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B4FD9A1DD3E9B500A76781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B4FDA71DD3E9B600A76781 /* Assets.xcassets in Resources */,
+				90B4FDB21DD3E9ED00A76781 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DA2008C74CB29A3A84DDCB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningMortar/Pods-LearningMortar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5950FC3D9EC053588118DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82DBBAF9281028746CC3E626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningMortar/Pods-LearningMortar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B4FD981DD3E9B500A76781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B4FDB41DD3EB7300A76781 /* TableViewCell.swift in Sources */,
+				90B4FDA21DD3E9B600A76781 /* ViewController.swift in Sources */,
+				90B4FDA01DD3E9B600A76781 /* AppDelegate.swift in Sources */,
+				90B4FDB61DD3EB7B00A76781 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90B4FDAC1DD3E9B600A76781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90B4FDAD1DD3E9B600A76781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B4FDAF1DD3E9B600A76781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4599FA5A1F6482254994966 /* Pods-LearningMortar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2RR2SL97M;
+				INFOPLIST_FILE = LearningMortar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melorriaga.LearningMortar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90B4FDB01DD3E9B600A76781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D73AB0EE6E5C3590A7AAAE7 /* Pods-LearningMortar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2RR2SL97M;
+				INFOPLIST_FILE = LearningMortar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melorriaga.LearningMortar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B4FD971DD3E9B500A76781 /* Build configuration list for PBXProject "LearningMortar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B4FDAC1DD3E9B600A76781 /* Debug */,
+				90B4FDAD1DD3E9B600A76781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B4FDAE1DD3E9B600A76781 /* Build configuration list for PBXNativeTarget "LearningMortar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B4FDAF1DD3E9B600A76781 /* Debug */,
+				90B4FDB01DD3E9B600A76781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B4FD941DD3E9B500A76781 /* Project object */;
+}
